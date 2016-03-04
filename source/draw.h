@@ -12,5 +12,5 @@ struct fb {
     u8 *bottom;
 };
 
-void clearScreen(void);
 void loadSplash(void);
+void shutdownLCD(void);
